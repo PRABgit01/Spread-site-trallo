@@ -2,7 +2,6 @@ import {
   GradiendtTextWrapper,
   IconContainar,
   Description,
-  EmtyDiv,
   LeftWrapper,
   LeftSideIcon,
   SpreadAcademyContainer,
@@ -17,6 +16,7 @@ import {
   CardImage,
   SpreadAcademyTitle,
   CardText,
+  SpreadTitleWrapper,
 } from "./SpreadAcademy.styled";
 
 export function SpreadAcademy() {
@@ -33,26 +33,20 @@ export function SpreadAcademy() {
           <SpreadAcademyWrapper>
             <LeftWrapper>
               <GradiendtTextWrapper>Spreadd Academy</GradiendtTextWrapper>
-              <SpreadAcademyTitle>Create course and</SpreadAcademyTitle>
-
-              <SpreadAcademyTitle>curriculums for your</SpreadAcademyTitle>
-              <SpreadAcademyTitle>collaborators/followers</SpreadAcademyTitle>
+              <SpreadTitleWrapper>
+                <SpreadAcademyTitle>
+                  Create course and curriculums for your collaborators/followers
+                </SpreadAcademyTitle>
+              </SpreadTitleWrapper>
               <SpreadAcademyDescription>
                 <Description>
                   We have got a host of features that can enable you to
-                  skyrocket your
-                </Description>
-                <Description>
-                  workshop and course sales. Empower your collaborators by
-                  delivering
-                </Description>
-                <Description>
-                  deeply engaging experience wherever they are, anytime,
-                  anywhere.
+                  skyrocket your workshop and course sales. Empower your
+                  collaborators by delivering deeply engaging experience
+                  wherever they are, anytime, anywhere.
                 </Description>
               </SpreadAcademyDescription>
             </LeftWrapper>
-            <EmtyDiv></EmtyDiv>
             <RightWrapper>
               <SmallCard>
                 <CardImage
