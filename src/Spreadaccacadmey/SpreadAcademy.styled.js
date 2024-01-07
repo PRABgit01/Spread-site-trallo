@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const SpreadAcademyContainer = styled.section`
   display: flex;
   justify-content: center;
-  background-color: #fff6f6;
   align-items: center;
+  background-color: #fff6f6;
   @media (max-width: 991px) {
     justify-content: flex-start;
   }
@@ -30,13 +30,13 @@ export const Pstyle = styled.p`
 `;
 
 export const LeftWrapper = styled.div`
-  max-width: max-content;
-  height: auto;
-  width: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  height: auto;
+  width: auto;
+  max-width: max-content;
   padding: 0px 80px 0px 0px;
   @media (max-width: 991px) {
     padding: 7px 19px 64px 14px;
@@ -44,14 +44,14 @@ export const LeftWrapper = styled.div`
 `;
 
 export const IconContainar = styled.div`
-  background-color: #fff6f6;
-  margin: 23px 0px;
-  height: auto;
-  width: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  background-color: #fff6f6;
+  margin: 23px 0px;
+  height: auto;
+  width: auto;
 `;
 
 export const RightCardImage = styled.img`
@@ -77,7 +77,7 @@ export const SmallCard = styled.div`
   max-width: 260px;
   width: 100%;
   z-index: 2;
-  color: white;
+  color: #fff;
   @media (max-width: 991px) {
     padding: 15px 1px 15px 10px;
     right: -69px;
@@ -98,8 +98,8 @@ export const CardText = styled.span`
 `;
 
 export const CardImage = styled.img`
-  max-width: 30px;
   width: 100%;
+  max-width: 30px;
   height: 30px;
   border-radius: 50%;
   margin-right: 10px;
@@ -110,23 +110,24 @@ export const CardImage = styled.img`
 `;
 
 export const RightWrapper = styled.div`
-  height: auto;
-  max-width: 48%;
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  max-width: 48%;
+  height: auto;
   position: relative;
   padding: 0px 0px 0px 51px;
 `;
 
 export const RightWrapperBefore = styled.img`
-  position: absolute;
+  width: 100%;
+  max-width: 96px;
+  height: 96px;
   top: -24px;
   left: 13%;
-  width: 96px;
-  height: 96px;
+  position: absolute;
   z-index: 0;
   border: 0px solid red;
   border-radius: 50%;
@@ -136,7 +137,6 @@ export const RightWrapperBefore = styled.img`
 `;
 
 export const RightWrapperAfter = styled.img`
-  content: "";
   position: absolute;
   bottom: -15px;
   left: 13%;
@@ -162,7 +162,7 @@ export const SpreadAcademyDescription = styled.div`
 `;
 
 export const Description = styled.p`
-  color: black;
+  color: #000;
   font-style: sans-serif;
   font-size: 14px;
   @media (max-width: 991px) {
@@ -171,13 +171,14 @@ export const Description = styled.p`
 `;
 
 export const GradiendtTextWrapper = styled.div`
+  width: 100%;
+  max-width: max-content;
   line-height: 1.5;
   font-weight: 400;
-  color: black;
+  color: #000;
   background: linear-gradient(50deg, white, transparent);
   padding: 8px 9px;
   margin-bottom: 20px;
-  width: max-content;
   font-size: 15px;
   @media (max-width: 991px) {
     font-size: 10px;
@@ -185,10 +186,10 @@ export const GradiendtTextWrapper = styled.div`
 `;
 
 export const SpreadAcademyTitle = styled.span`
-  letter-spacing: 1px;
   color: #212b36;
   font-style: sans-serif;
   line-height: 42px;
+  letter-spacing: 1px;
   margin: 0px;
   padding: 0px;
   border: 0px;

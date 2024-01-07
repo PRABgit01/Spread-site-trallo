@@ -1,41 +1,43 @@
-import styled from "styled-components";
 
+import styled from "styled-components";
 export const CreatorSection = styled.div`
-  background-color: #fff6f6;
-  max-width: auto;
-  width: 100%;
-  max-height: 525px;
-  align-items: flex-end;
   display: flex;
   justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  max-width: auto;
+  max-height: 525px;
+  background-color: #fff6f6;
   @media (max-width: 991px) {
     align-items: baseline;
   }
 `;
 
 export const CreatorWrapper = styled.div`
-  background-color: #fff6f6;
-  height: fit-content;
-  width: auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  height: fit-content;
+  width: auto;
+  background-color: #fff6f6;
   padding: 0px 60px 0px 0px;
+
   @media (max-width: 991px) {
     padding: 0px 0px 0px 0px;
   }
 `;
 
+
 export const LeftImageDiv = styled.div`
-  max-width: 48%;
   width: 100%;
+  max-width: 48%;
   position: relative;
 `;
 
 export const CreatorLeftSideContainer = styled.div`
-  max-width: 50%;
   width: 100%;
+  max-width: 50%;
   position: relative;
   padding: 0px 69px 1px 0px;
   @media (max-width: 991px) {
@@ -44,8 +46,8 @@ export const CreatorLeftSideContainer = styled.div`
 `;
 
 export const CreatorRightSideContainer = styled.div`
-  max-width: 50%;
   width: 100%;
+  max-width: 50%;
   position: relative;
   display: flex;
   padding: 0px 0px 0px 28px;
@@ -55,8 +57,8 @@ export const CreatorRightSideContainer = styled.div`
   }
 `;
 export const CreatorImage = styled.img`
-  max-width: 429px;
   width: 100%;
+  max-width: 429px;
   @media screen {
     width: 100%;
   }
@@ -83,10 +85,10 @@ export const CreatoProductLine = styled.div`
     rgb(240, 97, 86) 0%,
     rgba(240, 97, 86, 0.4) 98.89%
   );
-  font-weight: 600;
   font-size: 20px;
+  font-weight: 600;
   line-height: 20px;
-  color: white;
+  color: #fff;
   text-align: right;
   padding: 33px 7px;
   z-index: 0;
@@ -101,8 +103,7 @@ export const HappyCustomerCard = styled.div`
   right: 41px;
   top: -11px;
   padding: 8px;
-  background: white;
-  box-shadow: 0px 0px 0px;
+  background: #fff;
   @media (max-width: 991px) {
     font-size: 9px;
     line-height: 21px;
@@ -125,7 +126,7 @@ export const GradientCreatorText = styled.div`
   font-size: 14px;
   line-height: 1;
   font-weight: 400;
-  color: black;
+  color: #000;
   background: linear-gradient(50deg, white, transparent);
   padding: 8px 12px;
   margin-bottom: 25px;
