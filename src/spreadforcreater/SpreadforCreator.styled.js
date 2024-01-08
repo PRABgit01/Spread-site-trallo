@@ -8,6 +8,7 @@ export const CreatorSection = styled.div`
   max-width: auto;
   max-height: 525px;
   background-color: #fff6f6;
+
   @media (max-width: 991px) {
     align-items: baseline;
   }
@@ -40,6 +41,7 @@ export const CreatorLeftSideContainer = styled.div`
   max-width: 50%;
   position: relative;
   padding: 0px 69px 1px 0px;
+
   @media (max-width: 991px) {
     max-width: 100%;
   }
@@ -52,6 +54,7 @@ export const CreatorRightSideContainer = styled.div`
   display: flex;
   padding: 0px 0px 0px 28px;
   flex-direction: column;
+
   @media (max-width: 991px) {
     max-width: 100%;
   }
@@ -59,6 +62,7 @@ export const CreatorRightSideContainer = styled.div`
 export const CreatorImage = styled.img`
   width: 100%;
   max-width: 429px;
+
   @media screen {
     width: 100%;
   }
@@ -68,6 +72,7 @@ export const RightSideIconContainer = styled.div`
   position: absolute;
   top: 442px;
   right: 0px;
+
   @media (max-width: 991px) {
     display: none;
   }
@@ -93,6 +98,7 @@ export const CreatoProductLine = styled.div`
   padding: 33px 7px;
   z-index: 0;
   display: none;
+
   @media (max-width: 991px) {
     display: none;
   }
@@ -104,6 +110,7 @@ export const HappyCustomerCard = styled.div`
   top: -11px;
   padding: 8px;
   background: #fff;
+
   @media (max-width: 991px) {
     font-size: 9px;
     line-height: 21px;
@@ -116,6 +123,7 @@ export const CustomerCount = styled.h1`
   font-size: 12px;
   line-height: 14px;
   color: rgb(255, 78, 83);
+
   @media (max-width: 991px) {
     font-size: 10px;
     line-height: 12px;
@@ -133,6 +141,7 @@ export const GradientCreatorText = styled.div`
   width: max-content;
   opacity: 1;
   transform: translate3d(0px, 0px, 0px) translateX(0px);
+
   @media (max-width: 991px) {
     padding: 9px 17px;
     font-size: 9px;
@@ -142,6 +151,7 @@ export const GradientCreatorText = styled.div`
 export const CustomerDescription = styled.p`
   margin: 0px;
   font-size: 12px;
+
   @media (max-width: 991px) {
     font-size: 8px;
   }
@@ -150,6 +160,7 @@ export const CustomerDescription = styled.p`
 export const CreatorStoreHeading = styled.div`
   width: 100%;
   max-width: 340px;
+
   @media (max-width: 991px) {
     padding: 0px 0px 9px;
   }
@@ -167,6 +178,7 @@ export const CreatorHeading = styled.span`
   font-size: 38px;
   font-weight: 400;
   line-height: 31px;
+
   @media (max-width: 991px) {
     line-height: 32px;
     font-size: 27px;
@@ -178,6 +190,7 @@ export const CreatorInnerWrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 5% 0% 0%;
+  
   @media (max-width: 991px) {
     flex-direction: column-reverse;
     align-items: stretch;

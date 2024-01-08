@@ -5,6 +5,7 @@ export const SpreadAcademyContainer = styled.section`
   justify-content: center;
   align-items: center;
   background-color: #fff6f6;
+
   @media (max-width: 991px) {
     justify-content: flex-start;
   }
@@ -18,6 +19,7 @@ export const SpreadAcademyWrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 0px 26px 0px 0px;
+
   @media (max-width: 991px) {
     flex-direction: column;
     padding: 0px 0px 0px 0px;
@@ -38,6 +40,7 @@ export const LeftWrapper = styled.div`
   width: auto;
   max-width: max-content;
   padding: 0px 80px 0px 0px;
+
   @media (max-width: 991px) {
     padding: 7px 19px 64px 14px;
   }
@@ -59,6 +62,7 @@ export const RightCardImage = styled.img`
   max-width: 278px;
   z-index: 1;
   border-radius: 16px;
+
   @media (max-width: 991px) {
     max-width: 178px;
   }
@@ -78,6 +82,7 @@ export const SmallCard = styled.div`
   width: 100%;
   z-index: 2;
   color: #fff;
+
   @media (max-width: 991px) {
     padding: 15px 1px 15px 10px;
     right: -69px;
@@ -90,6 +95,7 @@ export const CardText = styled.span`
   font-weight: 650;
   line-height: 16px;
   margin: 2px 0px 2px 0px;
+
   @media (max-width: 991px) {
     font-size: 7px;
     line-height: 6px;
@@ -103,6 +109,7 @@ export const CardImage = styled.img`
   height: 30px;
   border-radius: 50%;
   margin-right: 10px;
+
   @media (max-width: 991px) {
     max-width: 17px;
     height: 17px;
@@ -131,6 +138,7 @@ export const RightWrapperBefore = styled.img`
   z-index: 0;
   border: 0px solid red;
   border-radius: 50%;
+
   @media (max-width: 991px) {
     left: 11%;
   }
@@ -143,6 +151,7 @@ export const RightWrapperAfter = styled.img`
   width: 90px;
   height: 57px;
   z-index: 1;
+
   @media (max-width: 991px) {
     left: 11%;
   }
@@ -155,6 +164,7 @@ export const SpreadAcademyDescription = styled.div`
   line-height: 20px;
   border: 0px;
   vertical-align: baseline;
+
   @media (max-width: 991px) {
     font-size: 10px;
     line-height: 12px;
@@ -165,6 +175,7 @@ export const Description = styled.p`
   color: #000;
   font-style: sans-serif;
   font-size: 14px;
+
   @media (max-width: 991px) {
     font-size: 10px;
   }
@@ -180,6 +191,7 @@ export const GradiendtTextWrapper = styled.div`
   padding: 8px 9px;
   margin-bottom: 20px;
   font-size: 15px;
+
   @media (max-width: 991px) {
     font-size: 10px;
   }
@@ -194,6 +206,7 @@ export const SpreadAcademyTitle = styled.span`
   padding: 0px;
   border: 0px;
   font-size: 37.4px;
+  
   @media (max-width: 991px) {
     letter-spacing: 1px;
     color: #212b36;
