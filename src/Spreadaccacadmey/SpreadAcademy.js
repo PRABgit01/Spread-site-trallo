@@ -26,7 +26,7 @@ export function SpreadAcademy() {
         <IconContainar>
           <LeftSideIcon
             src="https://spreadd.io/assets/home/left-dot-patch.svg"
-            alt="Dot icon"
+            alt="Doted patch"
           />
         </IconContainar>
         <SpreadAcademyContainer>
@@ -51,7 +51,7 @@ export function SpreadAcademy() {
               <SmallCard>
                 <CardImage
                   src="https://spreadd.io/assets/home/academy.jpg"
-                  alt="Academy"
+                  alt="Academy "
                 ></CardImage>
                 <CardText>
                   Amazing course, i would definetely recommend
@@ -59,10 +59,16 @@ export function SpreadAcademy() {
               </SmallCard>
               <RightCardImage
                 src="https://spreadd.io/assets/home/academy.jpg"
-                alt="Home"
+                alt="Academy"
               ></RightCardImage>
-              <RightWrapperBefore src="https://spreadd.io/assets/home/round-patch.svg"></RightWrapperBefore>
-              <RightWrapperAfter src="https://spreadd.io/assets/home/dot-patch.svg"></RightWrapperAfter>
+              <RightWrapperBefore
+                src="https://spreadd.io/assets/home/round-patch.svg"
+                alt="rounded Patch"
+              ></RightWrapperBefore>
+              <RightWrapperAfter
+                src="https://spreadd.io/assets/home/dot-patch.svg"
+                alt="Dotted patch"
+              ></RightWrapperAfter>
             </RightWrapper>
           </SpreadAcademyWrapper>
         </SpreadAcademyContainer>

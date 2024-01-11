@@ -22,7 +22,7 @@ export function SpreadforCreator() {
     <>
       <CreatorSection>
         <RightSideIconContainer>
-          <RightIcon src="https://spreadd.io/assets/home/left-dot-patch.svg"></RightIcon>
+          <RightIcon src="https://spreadd.io/assets/home/left-dot-patch.svg" alt="dot patch"></RightIcon>
         </RightSideIconContainer>
         <CreatoProductLine>100+ curated products</CreatoProductLine>
         <CreatorWrapper>
@@ -32,7 +32,7 @@ export function SpreadforCreator() {
                 <CustomerCount>100+</CustomerCount>
                 <CustomerDescription>Happy Customers 😍</CustomerDescription>
               </HappyCustomerCard>
-              <CreatorImage src="https://spreadd.io/assets/home/iphone.png"></CreatorImage>
+              <CreatorImage src="https://spreadd.io/assets/home/iphone.png" alt="Phone"></CreatorImage>
             </CreatorLeftSideContainer>
             <CreatorRightSideContainer>
               <GradientCreatorText>Creator Store </GradientCreatorText>

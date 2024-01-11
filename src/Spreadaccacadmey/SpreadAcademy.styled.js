@@ -28,7 +28,7 @@ export const SpreadAcademyWrapper = styled.div`
 
 export const Pstyle = styled.p`
   font-size: 13px;
-  line-height: 1px;
+  line-height: 3px;
 `;
 
 export const LeftWrapper = styled.div`
